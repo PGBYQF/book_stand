@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: book_stand
+  jackson: # 解决返回时间格式不正确
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  datasource:
+    url: jdbc:mysql://47.99.105.253:3306/book_stand?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: root123
+    driver-class-name: com.mysql.jdbc.Driver
+  swagger:
+    enabled: true
+    title: 书站
+    description: 书站接口介绍
+    version: 1.0.0
+    contact:
+      name: 潘贵宝
+    base-package: com.book
+    global-operation-parameters:
+      description: 'Token信息,必填项'
+      modelRef: 'string'
+      name: 'loginToken'
+      parameter-type: 'header'
+      required: true
+server:
+  port: 8090
+
+logback:
+  #非开发环境是否开启控制台日志
+  enableConsoleLogWhenNotInDev: true
+  #**日志文件存放目录，目录后面无需再加"/"。备注如果这项不配置，则不输出日志文件
+  logFileDir: log
+  appName: book_stand
+
+logging:
+  level:
+    root: info
+    com.book: debug
+

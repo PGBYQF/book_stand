@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.mapper.BookResultMapper">
+  <resultMap id="BaseResultMap" type="com.book.pojo.BookResultPojo">
+    <id column="result_code" jdbcType="VARCHAR" property="resultCode" />
+    <result column="book_code" jdbcType="VARCHAR" property="bookCode" />
+    <result column="result_date" jdbcType="DATE" property="resultDate" />
+    <result column="date_clicks" jdbcType="INTEGER" property="dateClicks" />
+    <result column="data_love" jdbcType="INTEGER" property="dataLove" />
+    <result column="data_hate" jdbcType="INTEGER" property="dataHate" />
+    <result column="data_collection" jdbcType="INTEGER" property="dataCollection" />
+  </resultMap>
+  <insert id="insert" keyColumn="result_code" keyProperty="resultCode" parameterType="com.book.pojo.BookResultPojo" useGeneratedKeys="true">
+    insert into book_result (book_code, result_date, date_clicks, 
+      data_love, data_hate, data_collection
+      )
+    values (#{bookCode,jdbcType=VARCHAR}, #{resultDate,jdbcType=DATE}, #{dateClicks,jdbcType=INTEGER}, 
+      #{dataLove,jdbcType=INTEGER}, #{dataHate,jdbcType=INTEGER}, #{dataCollection,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="result_code" keyProperty="resultCode" parameterType="com.book.pojo.BookResultPojo" useGeneratedKeys="true">
+    insert into book_result
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bookCode != null">
+        book_code,
+      </if>
+      <if test="resultDate != null">
+        result_date,
+      </if>
+      <if test="dateClicks != null">
+        date_clicks,
+      </if>
+      <if test="dataLove != null">
+        data_love,
+      </if>
+      <if test="dataHate != null">
+        data_hate,
+      </if>
+      <if test="dataCollection != null">
+        data_collection,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bookCode != null">
+        #{bookCode,jdbcType=VARCHAR},
+      </if>
+      <if test="resultDate != null">
+        #{resultDate,jdbcType=DATE},
+      </if>
+      <if test="dateClicks != null">
+        #{dateClicks,jdbcType=INTEGER},
+      </if>
+      <if test="dataLove != null">
+        #{dataLove,jdbcType=INTEGER},
+      </if>
+      <if test="dataHate != null">
+        #{dataHate,jdbcType=INTEGER},
+      </if>
+      <if test="dataCollection != null">
+        #{dataCollection,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.book.pojo.BookResultPojo">
+    update book_result
+    <set>
+      <if test="bookCode != null">
+        book_code = #{bookCode,jdbcType=VARCHAR},
+      </if>
+      <if test="resultDate != null">
+        result_date = #{resultDate,jdbcType=DATE},
+      </if>
+      <if test="dateClicks != null">
+        date_clicks = #{dateClicks,jdbcType=INTEGER},
+      </if>
+      <if test="dataLove != null">
+        data_love = #{dataLove,jdbcType=INTEGER},
+      </if>
+      <if test="dataHate != null">
+        data_hate = #{dataHate,jdbcType=INTEGER},
+      </if>
+      <if test="dataCollection != null">
+        data_collection = #{dataCollection,jdbcType=INTEGER},
+      </if>
+    </set>
+    where result_code = #{resultCode,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.book.pojo.BookResultPojo">
+    update book_result
+    set book_code = #{bookCode,jdbcType=VARCHAR},
+      result_date = #{resultDate,jdbcType=DATE},
+      date_clicks = #{dateClicks,jdbcType=INTEGER},
+      data_love = #{dataLove,jdbcType=INTEGER},
+      data_hate = #{dataHate,jdbcType=INTEGER},
+      data_collection = #{dataCollection,jdbcType=INTEGER}
+    where result_code = #{resultCode,jdbcType=VARCHAR}
+  </update>
+</mapper>

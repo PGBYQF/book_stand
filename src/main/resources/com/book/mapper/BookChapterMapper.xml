@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.mapper.BookChapterMapper">
+  <resultMap id="BaseResultMap" type="com.book.pojo.BookChapterPojo">
+    <result column="chapter_code" jdbcType="VARCHAR" property="chapterCode" />
+    <result column="chapter_name" jdbcType="VARCHAR" property="chapterName" />
+    <result column="book_code" jdbcType="VARCHAR" property="bookCode" />
+    <result column="chapter_number" jdbcType="INTEGER" property="chapterNumber" />
+    <result column="chapter_content" jdbcType="LONGVARCHAR" property="chapterContent" />
+  </resultMap>
+  <insert id="insert" parameterType="com.book.pojo.BookChapterPojo">
+    insert into book_chapter (chapter_code, chapter_name, book_code, 
+      chapter_number, chapter_content)
+    values (#{chapterCode,jdbcType=VARCHAR}, #{chapterName,jdbcType=VARCHAR}, #{bookCode,jdbcType=VARCHAR}, 
+      #{chapterNumber,jdbcType=INTEGER}, #{chapterContent,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.book.pojo.BookChapterPojo">
+    insert into book_chapter
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="chapterCode != null">
+        chapter_code,
+      </if>
+      <if test="chapterName != null">
+        chapter_name,
+      </if>
+      <if test="bookCode != null">
+        book_code,
+      </if>
+      <if test="chapterNumber != null">
+        chapter_number,
+      </if>
+      <if test="chapterContent != null">
+        chapter_content,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="chapterCode != null">
+        #{chapterCode,jdbcType=VARCHAR},
+      </if>
+      <if test="chapterName != null">
+        #{chapterName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookCode != null">
+        #{bookCode,jdbcType=VARCHAR},
+      </if>
+      <if test="chapterNumber != null">
+        #{chapterNumber,jdbcType=INTEGER},
+      </if>
+      <if test="chapterContent != null">
+        #{chapterContent,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+</mapper>

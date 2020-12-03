@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.book.mapper.BookInfoMapper">
+  <resultMap id="BaseResultMap" type="com.book.pojo.BookInfoPojo">
+    <id column="book_code" jdbcType="VARCHAR" property="bookCode" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="book_state" jdbcType="INTEGER" property="bookState" />
+    <result column="book_type_code" jdbcType="VARCHAR" property="bookTypeCode" />
+    <result column="book_type_name" jdbcType="VARCHAR" property="bookTypeName" />
+    <result column="book_desc" jdbcType="VARCHAR" property="bookDesc" />
+    <result column="book_img" jdbcType="VARCHAR" property="bookImg" />
+    <result column="book_label" jdbcType="VARCHAR" property="bookLabel" />
+    <result column="book_last_time" jdbcType="TIMESTAMP" property="bookLastTime" />
+    <result column="book_modify_time" jdbcType="TIMESTAMP" property="bookModifyTime" />
+    <result column="book_create_time" jdbcType="TIMESTAMP" property="bookCreateTime" />
+    <result column="book_autor" jdbcType="VARCHAR" property="bookAutor" />
+    <result column="book_clicks" jdbcType="INTEGER" property="bookClicks" />
+    <result column="book_love" jdbcType="INTEGER" property="bookLove" />
+    <result column="book_hate" jdbcType="INTEGER" property="bookHate" />
+    <result column="book_collection" jdbcType="INTEGER" property="bookCollection" />
+    <result column="book_number" jdbcType="INTEGER" property="bookNumber" />
+  </resultMap>
+</mapper>
