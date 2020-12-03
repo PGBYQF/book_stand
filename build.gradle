@@ -24,7 +24,7 @@ apply plugin: 'docker'
 
 
 
-group = 'com'
+group = 'com.book'
 version = '1.0'
 sourceCompatibility = '1.8'
 
