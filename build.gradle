@@ -60,7 +60,6 @@ docker {
 task dockerBuilder(type: Docker) {
     applicationName = "book_stand"
     tagVersion = '1.0'
-    volume('/tmp')
     addFile("${applicationName}-${tagVersion}.jar", "app.jar")
     entryPoint(["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", 'app.jar'])
     exposePort(8090)
