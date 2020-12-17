@@ -1,0 +1,789 @@
+2020-12-03 10:33:54 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 3184 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:33:54 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:33:54 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:33:55 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:33:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:33:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:33:55 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:33:55 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:33:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:33:55 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1306 ms
+2020-12-03 10:33:56 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:33:56 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:33:56 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:33:56 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:33:56 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:33:56 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:33:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:33:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:33:56 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 3.063 seconds (JVM running for 3.746)
+2020-12-03 10:34:06 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:34:06 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:34:06 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-12-03 10:34:38 [http-nio-8090-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "2020-12-03T02:34:14.638Z": not a valid representation (error: Failed to parse Date value '2020-12-03T02:34:14.638Z': Unparseable date: "2020-12-03T02:34:14.638Z"); nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "2020-12-03T02:34:14.638Z": not a valid representation (error: Failed to parse Date value '2020-12-03T02:34:14.638Z': Unparseable date: "2020-12-03T02:34:14.638Z")
+ at [Source: (PushbackInputStream); line: 6, column: 21] (through reference chain: com.book.pojo.BookInfoPojo["bookCreateTime"])]
+2020-12-03 10:36:44 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8116 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:36:44 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:36:44 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:36:45 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:36:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:36:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:36:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:36:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:36:45 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:36:45 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1188 ms
+2020-12-03 10:36:45 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:36:45 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:36:45 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:36:46 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:36:46 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:36:46 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:36:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:36:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:36:46 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.836 seconds (JVM running for 3.52)
+2020-12-03 10:37:04 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:37:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:37:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 10:38:11 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6204 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:38:11 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:38:11 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:38:12 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:38:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:38:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:38:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:38:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:38:12 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:38:12 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1092 ms
+2020-12-03 10:38:12 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:38:12 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:38:13 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:38:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:38:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:38:13 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:38:13 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 10:38:13 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:38:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:38:13 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.604 seconds (JVM running for 3.182)
+2020-12-03 10:38:19 [http-nio-8090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:38:19 [http-nio-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:38:19 [http-nio-8090-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 10:54:57 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 7612 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:54:57 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:54:57 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:54:58 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:54:59 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:54:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:54:59 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:54:59 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:54:59 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:54:59 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1206 ms
+2020-12-03 10:54:59 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:54:59 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:54:59 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:55:00 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:55:00 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:55:00 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:55:00 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 10:55:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:55:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:55:00 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.806 seconds (JVM running for 3.379)
+2020-12-03 10:55:16 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:55:16 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:55:16 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-03 10:56:53 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8664 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:56:53 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:56:53 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:56:54 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:56:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:56:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:56:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:56:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:56:54 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:56:54 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1187 ms
+2020-12-03 10:56:54 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:56:54 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:56:54 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:56:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:56:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:56:55 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:56:55 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 10:56:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:56:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:56:55 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.556 seconds (JVM running for 3.086)
+2020-12-03 10:56:58 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:56:58 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:56:58 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 10:59:09 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 9388 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 10:59:09 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 10:59:09 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 10:59:10 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 10:59:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 10:59:10 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:59:10 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 10:59:10 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 10:59:10 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 10:59:10 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1158 ms
+2020-12-03 10:59:10 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 10:59:10 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 10:59:10 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 10:59:11 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 10:59:11 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 10:59:11 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 10:59:11 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 10:59:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 10:59:11 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 10:59:11 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.69 seconds (JVM running for 3.225)
+2020-12-03 10:59:17 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 10:59:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 10:59:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:00:07 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 9340 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:00:07 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:00:07 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:00:08 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:00:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:00:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:00:08 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:00:08 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:00:08 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:00:08 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1283 ms
+2020-12-03 11:00:08 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:00:08 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:00:08 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:00:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:00:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:00:09 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:00:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:00:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:00:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:00:09 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.681 seconds (JVM running for 3.245)
+2020-12-03 11:02:17 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:02:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:02:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:05:13 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 10168 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:05:13 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:05:13 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:05:14 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:05:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:05:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:14 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:05:14 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:05:14 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:05:14 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1228 ms
+2020-12-03 11:05:15 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:05:15 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:05:15 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:05:15 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:05:15 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:05:15 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:05:15 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:05:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:05:15 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.734 seconds (JVM running for 3.3)
+2020-12-03 11:05:20 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:05:20 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:05:20 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-03 11:05:47 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8828 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:05:47 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:05:47 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:05:48 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:05:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:05:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:05:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:05:49 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:05:49 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1250 ms
+2020-12-03 11:05:49 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:05:49 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:05:49 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:05:50 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:05:50 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:05:50 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:05:50 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:05:50 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:05:50 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.834 seconds (JVM running for 3.372)
+2020-12-03 11:05:53 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 10172 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:05:53 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:05:53 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:05:54 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:05:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:05:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:05:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:05:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:05:55 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1204 ms
+2020-12-03 11:05:55 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:05:55 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:05:55 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:05:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:05:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:05:55 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:05:56 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:05:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:05:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:05:56 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.782 seconds (JVM running for 3.314)
+2020-12-03 11:05:59 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:05:59 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:05:59 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:12:09 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8912 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:12:09 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:12:09 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:12:10 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:12:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:12:10 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:12:10 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:12:10 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:12:10 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:12:10 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1159 ms
+2020-12-03 11:12:11 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:12:11 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:12:11 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:12:11 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:12:11 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:12:11 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:12:11 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:12:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:12:11 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:12:11 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.768 seconds (JVM running for 3.337)
+2020-12-03 11:12:33 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:12:33 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:12:33 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:13:03 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 9564 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:13:03 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:13:03 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:13:04 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:13:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:13:04 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:13:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:13:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:13:05 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:13:05 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1188 ms
+2020-12-03 11:13:05 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:13:05 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:13:05 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:13:05 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:13:05 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:13:05 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:13:06 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:13:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:13:06 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:13:06 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.922 seconds (JVM running for 3.515)
+2020-12-03 11:14:11 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6332 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:14:11 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:14:11 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:14:12 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:14:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:14:12 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:14:12 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:14:12 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:14:13 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:14:13 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1184 ms
+2020-12-03 11:14:13 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:14:13 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:14:13 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:14:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:14:13 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:14:13 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:14:13 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:14:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:14:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:14:14 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.886 seconds (JVM running for 3.442)
+2020-12-03 11:14:17 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:14:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:14:17 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-12-03 11:14:44 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 7924 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:14:44 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:14:44 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:14:44 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:14:45 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:14:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:14:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:14:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:14:45 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:14:45 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1141 ms
+2020-12-03 11:14:45 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:14:45 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:14:45 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:14:46 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:14:46 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:14:46 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:14:46 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:14:46 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:14:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:14:46 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.861 seconds (JVM running for 3.454)
+2020-12-03 11:15:07 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:15:07 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:15:07 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:15:58 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8720 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:15:58 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:15:58 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:15:59 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:15:59 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:15:59 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:15:59 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:15:59 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:15:59 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:15:59 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1104 ms
+2020-12-03 11:15:59 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:15:59 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:15:59 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:16:00 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:16:00 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:16:00 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:16:00 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:16:00 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:16:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:16:00 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.618 seconds (JVM running for 3.141)
+2020-12-03 11:16:04 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:16:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:16:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:18:56 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6332 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:18:56 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:18:56 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:18:56 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:18:57 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:18:57 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:18:57 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:18:57 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:18:57 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:18:57 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1220 ms
+2020-12-03 11:18:57 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:18:57 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:18:57 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:18:58 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:18:58 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:18:58 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:18:58 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:18:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:18:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:18:58 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 3.081 seconds (JVM running for 3.666)
+2020-12-03 11:19:02 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:19:02 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:19:02 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:20:03 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8240 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:20:03 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:20:03 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:20:04 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:20:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:20:04 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:20:04 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:20:04 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:20:04 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:20:04 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1186 ms
+2020-12-03 11:20:04 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:20:05 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:20:05 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:20:05 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:20:05 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:20:05 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:20:05 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:20:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:20:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:20:05 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.813 seconds (JVM running for 3.409)
+2020-12-03 11:20:08 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 11:20:08 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 11:20:08 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 11:32:45 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 5972 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:32:45 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:32:45 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:32:46 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:32:47 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:32:47 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:32:47 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:32:47 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:32:47 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:32:47 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1195 ms
+2020-12-03 11:32:47 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:32:47 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:32:47 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:32:47 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:32:47 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:32:47 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:32:48 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:32:48 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:32:48 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:32:48 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.809 seconds (JVM running for 3.367)
+2020-12-03 11:37:00 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 9688 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:37:00 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:37:00 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:37:01 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:37:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:37:01 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:37:01 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:37:01 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:37:02 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:37:02 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1231 ms
+2020-12-03 11:37:02 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:37:02 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:37:02 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:37:02 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:37:02 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:37:02 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:37:03 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:37:03 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:37:03 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:37:03 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.939 seconds (JVM running for 3.495)
+2020-12-03 11:42:42 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6600 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 11:42:42 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 11:42:42 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 11:42:43 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 11:42:43 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 11:42:43 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:42:43 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 11:42:43 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 11:42:43 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 11:42:43 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1113 ms
+2020-12-03 11:42:44 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 11:42:44 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 11:42:44 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 11:42:44 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 11:42:44 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 11:42:44 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 11:42:44 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 11:42:44 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 11:42:44 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 11:42:44 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.746 seconds (JVM running for 3.348)
+2020-12-03 13:50:19 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6824 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 13:50:19 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 13:50:19 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 13:50:19 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:50:20 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 13:50:20 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 13:50:20 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 13:50:20 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 13:50:20 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:50:20 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1137 ms
+2020-12-03 13:50:20 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 13:50:20 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 13:50:20 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 13:50:21 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 13:50:21 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 13:50:21 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 13:50:21 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 13:50:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 13:50:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 13:50:21 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.678 seconds (JVM running for 3.248)
+2020-12-03 13:50:35 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:50:35 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:50:35 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-03 13:59:19 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 7132 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 13:59:19 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 13:59:19 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 13:59:20 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 13:59:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 13:59:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 13:59:21 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 13:59:21 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 13:59:21 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 13:59:21 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1159 ms
+2020-12-03 13:59:21 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 13:59:21 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 13:59:21 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 13:59:21 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 13:59:22 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 13:59:22 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 13:59:22 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 13:59:22 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-12-03 13:59:22 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-12-03 13:59:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 13:59:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 13:59:22 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.821 seconds (JVM running for 3.403)
+2020-12-03 13:59:27 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 13:59:27 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 13:59:27 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-12-03 14:01:13 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 13296 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:01:13 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:01:13 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:01:14 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:01:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:01:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:01:14 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:01:14 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:01:14 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:01:14 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1220 ms
+2020-12-03 14:01:15 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:01:15 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:01:15 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:01:15 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:01:15 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:01:15 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:01:15 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:01:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:01:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:01:15 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.901 seconds (JVM running for 3.476)
+2020-12-03 14:01:20 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:01:20 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:01:20 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 14:02:26 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 11692 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:02:26 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:02:26 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:02:27 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:02:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:02:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:02:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:02:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:02:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:02:27 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1144 ms
+2020-12-03 14:02:28 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:02:28 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:02:28 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:02:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:02:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:02:28 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:02:28 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:02:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:02:28 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:02:28 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.848 seconds (JVM running for 3.444)
+2020-12-03 14:02:32 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:02:32 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:02:32 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-03 14:03:23 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 6812 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:03:23 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:03:23 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:03:24 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:03:24 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:03:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:03:24 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:03:24 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:03:24 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:03:24 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1363 ms
+2020-12-03 14:03:25 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:03:25 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:03:25 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:03:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:03:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:03:26 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:03:26 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:03:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:03:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:03:26 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 3.352 seconds (JVM running for 3.919)
+2020-12-03 14:03:39 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8936 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:03:39 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:03:39 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:03:40 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:03:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:03:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:03:40 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:03:40 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:03:40 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:03:40 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1117 ms
+2020-12-03 14:03:40 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:03:40 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:03:41 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:03:41 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:03:41 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:03:41 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:03:41 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:03:41 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:03:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:03:41 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.835 seconds (JVM running for 3.439)
+2020-12-03 14:03:45 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:03:45 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:03:45 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 14:05:26 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 14308 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:05:26 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:05:26 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:05:27 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:05:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:05:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:05:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:05:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:05:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:05:27 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1141 ms
+2020-12-03 14:05:28 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:05:28 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:05:28 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:05:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:05:28 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:05:28 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:05:28 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:05:28 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:05:28 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:05:28 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.773 seconds (JVM running for 3.309)
+2020-12-03 14:05:31 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:05:31 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:05:31 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-03 14:07:53 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 9672 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:07:53 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:07:53 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:07:54 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:07:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:07:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:07:54 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:07:54 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:07:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:07:55 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1116 ms
+2020-12-03 14:07:55 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:07:55 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:07:55 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:07:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:07:55 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:07:55 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:07:55 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:07:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:07:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:07:56 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.773 seconds (JVM running for 3.367)
+2020-12-03 14:08:04 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:08:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:08:04 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-03 14:10:24 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 13884 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:10:24 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:10:24 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:10:25 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:10:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:10:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:10:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:10:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:10:26 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:10:26 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1167 ms
+2020-12-03 14:10:26 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:10:26 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:10:26 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:10:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:10:26 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:10:27 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:10:27 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:10:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:10:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:10:27 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.682 seconds (JVM running for 3.225)
+2020-12-03 14:10:33 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:10:33 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:10:33 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 14:19:07 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 14056 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:19:07 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:19:07 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:19:07 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:19:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:19:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:19:08 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:19:08 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:19:08 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:19:08 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1138 ms
+2020-12-03 14:19:08 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:19:08 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:19:08 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:19:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:19:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:19:09 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:19:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:19:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:19:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:19:09 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.965 seconds (JVM running for 3.566)
+2020-12-03 14:19:12 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:19:12 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:19:12 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-12-03 14:22:35 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 4192 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:22:35 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:22:35 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:22:36 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:22:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:22:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:22:36 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:22:36 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:22:36 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:22:36 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1201 ms
+2020-12-03 14:22:37 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:22:37 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:22:37 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:22:37 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:22:37 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:22:37 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:22:37 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:22:37 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:22:37 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:22:37 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.895 seconds (JVM running for 3.459)
+2020-12-03 14:22:41 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:22:41 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:22:41 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-03 14:23:21 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 11092 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:23:21 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:23:21 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:23:22 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:23:23 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:23:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:23:23 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:23:23 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:23:23 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:23:23 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1266 ms
+2020-12-03 14:23:23 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:23:23 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:23:23 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:23:24 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:23:24 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:23:24 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:23:24 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:23:24 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:23:24 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:23:24 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.887 seconds (JVM running for 3.493)
+2020-12-03 14:23:28 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:23:28 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:23:28 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-12-03 14:24:51 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 12196 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:24:51 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:24:51 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:24:52 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:24:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:24:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:24:52 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:24:52 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:24:52 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:24:52 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1123 ms
+2020-12-03 14:24:53 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:24:53 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:24:53 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:24:53 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:24:53 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:24:53 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:24:53 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:24:53 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:24:53 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:24:53 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.827 seconds (JVM running for 3.397)
+2020-12-03 14:24:55 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:24:55 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:24:55 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-12-03 14:26:06 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 8276 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:26:06 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:26:06 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:26:07 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:26:08 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:26:08 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:26:08 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:26:08 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:26:08 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:26:08 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1209 ms
+2020-12-03 14:26:08 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:26:08 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:26:08 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:26:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:26:09 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:26:09 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:26:09 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:26:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:26:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:26:09 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 2.83 seconds (JVM running for 3.412)
+2020-12-03 14:26:11 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:26:11 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:26:11 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-12-03 14:26:56 [main] INFO  com.book.BookStandApplication - Starting BookStandApplication on USER-20180613PP with PID 10988 (D:\work-kie\book_stand\out\production\classes started by Administrator in D:\work-kie\book_stand)
+2020-12-03 14:26:56 [main] DEBUG com.book.BookStandApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-12-03 14:26:56 [main] INFO  com.book.BookStandApplication - No active profile set, falling back to default profiles: default
+2020-12-03 14:26:57 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-03 14:26:57 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-12-03 14:26:57 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:26:57 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-03 14:26:57 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-12-03 14:26:57 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-03 14:26:57 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1233 ms
+2020-12-03 14:26:57 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-03 14:26:58 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-03 14:26:58 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-12-03 14:26:58 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-12-03 14:26:58 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-12-03 14:26:58 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-12-03 14:26:58 [main] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: saveBookInfoUsingPOST_1
+2020-12-03 14:26:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-12-03 14:26:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+2020-12-03 14:26:58 [main] INFO  com.book.BookStandApplication - Started BookStandApplication in 3.005 seconds (JVM running for 3.582)
+2020-12-03 14:27:02 [http-nio-8090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-03 14:27:02 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-03 14:27:02 [http-nio-8090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms

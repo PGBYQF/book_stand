@@ -47,7 +47,8 @@ dependencies {
     implementation 'mysql:mysql-connector-java:8.0.22'
     implementation 'com.github.pagehelper:pagehelper-spring-boot-starter:1.3.0'
     implementation 'com.baomidou:mybatis-plus-boot-starter:3.4.1'
-
+    implementation 'com.baomidou:mybatis-plus-generator:3.4.1'
+    implementation 'org.freemarker:freemarker:2.3.9'
 }
 
 sourceSets {
