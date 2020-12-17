@@ -2,18 +2,19 @@ package com.book.mapper;
 
 import com.book.pojo.BookTypePojo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Mapper
+@Repository
 public interface BookTypeMapper {
-    int deleteByPrimaryKey(String typeCode);
-
     int insert(BookTypePojo record);
 
-    int insertSelective(BookTypePojo record);
+    List<BookTypePojo> listBookType(@Param("typeName") String typeName);
 
-    BookTypePojo selectByPrimaryKey(String typeCode);
+    BookTypePojo findBookType(@Param("typeCode") String typeCode);
 
-    int updateByPrimaryKeySelective(BookTypePojo record);
-
-    int updateByPrimaryKey(BookTypePojo record);
+    int deleteType(@Param("typeCode") String typeCode);
 }

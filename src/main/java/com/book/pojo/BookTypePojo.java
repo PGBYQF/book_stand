@@ -18,6 +18,8 @@ public class BookTypePojo implements Serializable {
 
     private String typeName;
 
+    private String createTime;
+
     private static final long serialVersionUID = 1L;
 
     public String getTypeCode() {
@@ -34,6 +36,14 @@ public class BookTypePojo implements Serializable {
 
     public void setTypeName(String typeName) {
         this.typeName = typeName;
+    }
+
+    public String getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(String createTime) {
+        this.createTime = createTime;
     }
 
     @Override

@@ -13,10 +13,10 @@ public class ResultResponse<T> {
 
     private String code;
     private String message;
-    private int total;
+    private long total;
     private T result;
 
-    public ResultResponse(String code, String message, int total, T result) {
+    public ResultResponse(String code, String message, long total, T result) {
         this.code = code;
         this.message = message;
         this.total = total;
@@ -26,6 +26,11 @@ public class ResultResponse<T> {
     public ResultResponse(String code, String message) {
         this.code = code;
         this.message = message;
+    }
+
+    public ResultResponse(String code, T result) {
+        this.code = code;
+        this.result = result;
     }
 
 

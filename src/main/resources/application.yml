@@ -14,15 +14,10 @@ spring:
     title: 书站
     description: 书站接口介绍
     version: 1.0.0
+    host: 47.99.105.253:8090
     contact:
       name: 潘贵宝
     base-package: com.book
-    global-operation-parameters:
-      description: 'Token信息,必填项'
-      modelRef: 'string'
-      name: 'loginToken'
-      parameter-type: 'header'
-      required: true
 server:
   port: 8090
 
@@ -38,3 +33,8 @@ logging:
     root: info
     com.book: debug
 
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
