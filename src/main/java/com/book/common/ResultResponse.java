@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@ApiModel(value ="ResultResponse",description = "通用返回类")
+@ApiModel(value ="ResultResponse 通用返回类",description = "通用返回类")
 @Data
 @Setter
 @Getter

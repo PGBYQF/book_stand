@@ -1,5 +1,6 @@
 package com.book.pojo;
 
+import io.swagger.annotations.ApiModel;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +14,7 @@ import java.io.Serializable;
 @Data
 @Setter
 @Getter
+@ApiModel(value = "BookTypePojo 书类型类")
 public class BookTypePojo implements Serializable {
     private String typeCode;
 

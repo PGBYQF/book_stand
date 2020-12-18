@@ -8,16 +8,7 @@ spring:
     url: jdbc:mysql://47.99.105.253:3306/book_stand?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
     username: root
     password: root123
-    driver-class-name: com.mysql.jdbc.Driver
-  swagger:
-    enabled: true
-    title: 书站
-    description: 书站接口介绍
-    version: 1.0.0
-    host: 47.99.105.253:8090
-    contact:
-      name: 潘贵宝
-    base-package: com.book
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8090
 

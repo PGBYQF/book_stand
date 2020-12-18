@@ -15,7 +15,7 @@ import java.util.Date;
 @Data
 @Setter
 @Getter
-@ApiModel(value = "BookInfoPojo",description = "书基础信息类")
+@ApiModel(value = "BookInfoPojo 书基本信息",description = "书基础信息类")
 public class BookInfoPojo implements Serializable {
     /**
      * 书编号

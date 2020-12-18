@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Controller("/bookType")
-@Api(value = "BookTypeController",description = "书分类信息")
+@Api(value = "BookTypeController",description = "书分类信息",tags = "书分类信息")
 public class BookTypeController {
 
     @Autowired
