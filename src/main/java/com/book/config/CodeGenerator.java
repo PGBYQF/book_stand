@@ -6,17 +6,13 @@ import com.baomidou.mybatisplus.generator.InjectionConfig;
 import com.baomidou.mybatisplus.generator.config.*;
 import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
-import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
-import org.springframework.stereotype.Component;
+import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;` `
 
-import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
 public class CodeGenerator  {
 
-    @PostConstruct
     public static void main(String [] arg) {
         System.out.println("静态方法，第一次执行");
         // 代码生成器
