@@ -1,8 +1,14 @@
 package com.book.common;
 
+import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "spring.datasource.druid")
+@PropertySource("classpath:application.yml")
+@Component
+@Data
 public class DruidDataSourceProperties {
 
     private String driverClassName;

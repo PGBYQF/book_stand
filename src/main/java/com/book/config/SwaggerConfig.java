@@ -24,7 +24,7 @@ public class SwaggerConfig {
                         .description("潘贵宝的测试项目")
                         .version("9.0")
                         .license("swagger")
-                        .licenseUrl("localhost:8090/swagger-ui.html")
+                        .licenseUrl("http://localhost:8090/doc.html")
                         .build());
     }
 }

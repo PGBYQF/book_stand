@@ -4,17 +4,23 @@ package com.book.config;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
+import com.alibaba.druid.support.json.JSONUtils;
 import com.book.common.DruidDataSourceProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import springfox.documentation.spring.web.json.Json;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
 
+/**
+ * 配置数据库druid的监控 结果访问地址：http://localhost:8090/druid/weburi.html
+ */
 @Configuration
 public class DataDruidConfig {
 
