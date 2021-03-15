@@ -8,18 +8,18 @@ spring:
     druid:
       name: druidDataSource
       type: com.alibaba.druid.pool.DruidDataSource
-      url: jdbc:mysql://47.99.105.253:3306/book_stand?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+      url: jdbc:mysql://47.99.105.253:3306/book_stand?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false
       username: root
       password: root123
       driver-class-name: com.mysql.cj.jdbc.Driver
       filters: stat,wall,log4j
       max-active: 100
       initial-size: 1
-      max-wait: 60000
+      max-wait: 100
       min-idle: 1
       time-between-eviction-runs-millis: 5000
-      min-evictable-idle-time-millis: 5000
-      validation-query: select 'x'
+      min-evictable-idle-time-millis: 90000
+      validation-query: "select * from asdafdasfa"
       test-while-idle: true
       test-on-borrow: true
       test-on-return: false
