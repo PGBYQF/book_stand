@@ -19,9 +19,9 @@ spring:
       min-idle: 1
       time-between-eviction-runs-millis: 5000
       min-evictable-idle-time-millis: 90000
-      validation-query: "select * from asdafdasfa"
+      validation-query: "select 1"
       test-while-idle: true
-      test-on-borrow: true
+      test-on-borrow: false
       test-on-return: false
       pool-prepared-statements: true
       max-open-prepared-statements: 50
