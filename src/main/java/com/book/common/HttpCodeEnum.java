@@ -3,6 +3,7 @@ package com.book.common;
 public enum  HttpCodeEnum {
     SUCCESS("200","操作成功"),
     FAILD("5000","操作失败"),
+    NULLTOKEN("5001","没有token"),
     ;
     private String code;
     private String message;

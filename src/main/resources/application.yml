@@ -15,10 +15,10 @@ spring:
       filters: stat,wall,log4j
       max-active: 100
       initial-size: 1
-      max-wait: 100
+      max-wait: 6000
       min-idle: 1
-      time-between-eviction-runs-millis: 5000
-      min-evictable-idle-time-millis: 90000
+      time-between-eviction-runs-millis: 3000000
+      min-evictable-idle-time-millis: 9000000
       validation-query: "select 1"
       test-while-idle: true
       test-on-borrow: false
@@ -27,9 +27,10 @@ spring:
       max-open-prepared-statements: 50
       max-pool-prepared-statement-per-connection-size: 20
 
+ignore-url: "/doc.html,/swagger-resources,/v2/api-docs,/book"
+
 server:
   port: 8090
-
 
 logback:
   #非开发环境是否开启控制台日志
@@ -50,4 +51,7 @@ pagehelper:
   params: count=countSql
 
 
-
+system:
+  filepath: D:\work-kie\book_stand\src\main\resources\static\book
+  #windows下用这个filepath: D:\temp\upload
+  urlpath: localhost:8090/book
